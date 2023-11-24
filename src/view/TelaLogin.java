@@ -80,7 +80,7 @@ public class TelaLogin extends javax.swing.JFrame {
         jPassword.setBounds(200, 140, 350, 30);
 
         logar.setBackground(new java.awt.Color(51, 255, 51));
-        logar.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        logar.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         logar.setForeground(new java.awt.Color(25, 55, 88));
         logar.setMnemonic('E');
         logar.setText("Logar");
@@ -90,13 +90,13 @@ public class TelaLogin extends javax.swing.JFrame {
             }
         });
         getContentPane().add(logar);
-        logar.setBounds(200, 260, 140, 30);
+        logar.setBounds(170, 240, 190, 50);
 
         jCancelar.setBackground(new java.awt.Color(255, 0, 0));
-        jCancelar.setFont(new java.awt.Font("Verdana", 0, 14)); // NOI18N
+        jCancelar.setFont(new java.awt.Font("OCR A Extended", 0, 24)); // NOI18N
         jCancelar.setText("Cancelar");
         getContentPane().add(jCancelar);
-        jCancelar.setBounds(410, 260, 140, 30);
+        jCancelar.setBounds(380, 240, 190, 50);
 
         pack();
         setLocationRelativeTo(null);
